@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src=".\godtierpfp.png" className="App-logo" alt="logo" />
+        <img src="file:///C:/Users/azizy/Downloads/trace.svg" className="App-logo" alt="logo" />
         <p>
           Hi.
         </p>
