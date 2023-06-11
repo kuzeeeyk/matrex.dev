@@ -28,12 +28,10 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-https:matrex.dev
+https:matrex.dev 
 
 An easy (not complated) website.
 
