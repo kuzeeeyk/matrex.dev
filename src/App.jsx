@@ -13,7 +13,7 @@ function App() {
       <div className="maindiv">
         <div className="aboutme">
           <h3>About Me</h3>
-          <p>Hey! Working on this website see you soon</p>
+          <p>Hey! Working on this website see you soon..</p>
         </div>
 
         <div className="avatar">
