@@ -53,6 +53,5 @@ button {
 }
 .maindiv {
   display: flex;
-  margin-bottom: 80;
-  text-align: center;
+  margin-bottom: 100px;
 }
