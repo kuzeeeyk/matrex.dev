@@ -33,7 +33,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-https://i.imgur.com/l7QwWZi.png
+https:matrex.dev
 
 An easy (not complated) website.
 
