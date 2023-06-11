@@ -32,7 +32,6 @@ An easy (not complated) website.
 ### Built With
 
 * [![React][React.js]][React-url]
-* [![JQuery][JQuery.com]][JQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
