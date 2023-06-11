@@ -1,16 +1,20 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-
-
-.App-header {
- background-color:black;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -20,49 +24,35 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.avatar {
+  padding: 20px 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-  
-.avatar{
-  
-  width: 7%;
+.photo {
+  width: 135px;
   height: auto;
   border-radius: 50%;
-  float:left;
-  text-align: left;
 }
-
-.instagram{
-  
-  background-color:black;
+button {
   color: gray;
-  border: 2px solid #b60e5c; 
+  background-color: black;
+}
+.instagram {
+  border: 2px solid #b60e5c;
 }
 
-.discord{
-
-  background-color:black;
-border: 2px solid #24a0ed ;
- color: gray;
+.discord {
+  border: 2px solid #24a0ed;
 }
-.twitter{
-  background-color:black;
-border: 2px solid #0054f0 ;
- color: gray;
+.twitter {
+  border: 2px solid #0054f0;
 }
 
-.github{
-  background-color:black;
-  border: 2px solid #9f05e6 ;
-   color: gray;
+.github {
+  border: 2px solid #9f05e6;
+}
+.maindiv {
+  display: flex;
+  margin-bottom: 80;
+  text-align: center;
 }
