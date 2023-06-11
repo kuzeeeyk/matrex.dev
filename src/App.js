@@ -19,11 +19,11 @@ function App() {
         <p>
           Soon..
         </p>
+          <a href='https://github.com/matrex03' target='_blank' rel='noopener nopreferer'>
+            <button className="github">Github</button>
+           </a>
            <a href='https://twitter.com/matrex_03' target='_blank' rel='noopener nopreferer'>
             <button className="twitter">Twitter</button>
-           </a>
-           <a href='https://github.com/matrex03' target='_blank' rel='noopener nopreferer'>
-            <button className="github">Github</button>
            </a>
            <a href='https://discord.gg/mAffaJ2uhD' target='_blank' rel='noopener nopreferer'>
             <button className="discord">Discord</button>
