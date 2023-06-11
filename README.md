@@ -35,7 +35,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![matrex.dev][product-screenshot]](https://i.imgur.com/l7QwWZi.png)
+https://i.imgur.com/l7QwWZi.png
 
 An easy (not complated) website.
 
