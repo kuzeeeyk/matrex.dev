@@ -12,40 +12,33 @@ function App() {
     <div className="App">
       <div className="maindiv">
         <div className="aboutme">
-          <h3>About Me</h3>
-          <p>Hey! Working on this website see you soon..</p>
+          <h1>About Me</h1>
+          <p className="limit">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
+            eveniet voluptatem provident cupiditate sapiente illo, totam
+            consequatur impedit, sequi modi exercitationem expedita architecto
+            odio quos labore tempora? Animi, tempora adipisci?
+          </p>
         </div>
 
         <div className="avatar">
-          <img src={user.imageurl} className="photo" />
+          <img alt="" src={user.imageurl} className="photo" />
         </div>
       </div>
 
-      <a
-        href="https://github.com/matrex03"
-        target="_blank"
-        rel="noopener nopreferer"
-      >
+      <a href="https://github.com/matrex03" target="_blank" rel="noreferrer">
         <button className="github">Github</button>
       </a>
-      <a
-        href="https://twitter.com/matrex_03"
-        target="_blank"
-        rel="noopener nopreferer"
-      >
+      <a href="https://twitter.com/matrex_03" target="_blank" rel="noreferrer">
         <button className="twitter">Twitter</button>
       </a>
-      <a
-        href="https://discord.gg/mAffaJ2uhD"
-        target="_blank"
-        rel="noopener nopreferer"
-      >
+      <a href="https://discord.gg/mAffaJ2uhD" target="_blank" rel="noreferrer">
         <button className="discord">Discord</button>
       </a>
       <a
         href="https://www.instagram.com/matrex03/"
         target="_blank"
-        rel="noopener nopreferer"
+        rel="noreferrer"
       >
         <button className="instagram">Instagram</button>
       </a>
