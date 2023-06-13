@@ -65,7 +65,17 @@ code {
   padding: 12px 0;
   font-size: 16px;
   color: #999999;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  max-width: auto;
+  max-height: 32px;
+  gap: 10px;
 }
+.button > svg {
+  width: 24px;
+}
+
 .button:hover {
   box-shadow: 0 0 40px 40px #222222 inset;
   color: #fff;
@@ -94,12 +104,13 @@ code {
 .title {
   font-size: 20px;
   color: #a2a2a2;
-  margin-bottom: 5px;
+  margin-bottom: 12px;
 }
 .description {
   font-size: 16px;
   opacity: 0.7;
   font-weight: 300;
+  margin-bottom: 44px;
 }
 .status {
   font-size: 18px;
@@ -133,4 +144,38 @@ code {
   min-width: 14px;
   min-height: 14px;
   border-radius: 50%;
+}
+.tech {
+  text-align: center;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  text-decoration: none;
+  border-radius: 6px;
+  background: #131313;
+  padding: 16px;
+  font-size: 16px;
+  color: #999999;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  max-width: auto;
+  max-height: 36px;
+}
+.techiuse {
+  gap: 8px;
+}
+.techtitle {
+  font-size: 20px;
+  color: #a2a2a2;
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+.techbuttons {
+  grid-template-columns: auto auto auto auto;
+  display: grid;
+  gap: 8px;
+  margin-bottom: 78px;
+}
+.tech > svg {
+  width: 36px;
 }

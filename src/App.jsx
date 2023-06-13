@@ -2,6 +2,7 @@ import "./App.css";
 import React, { useEffect, useState } from "react";
 import Buttons from "./components/buttons";
 import Discordstatus from "./components/Discordstatus";
+import Tech from "./components/techinfo";
 
 const user = {
   name: "Matrex",
@@ -28,14 +29,17 @@ function App() {
             Despite being new to this field, I'm determined to persevere and
             grow as a developer, embracing the challenges and opportunities that
             lie ahead.
+            <div>
+              <Discordstatus />
+            </div>
           </p>
-          <div>
-            <Discordstatus />
-          </div>
         </div>
         <div className="avatar">
           <img alt="" src={user.imageurl} className="photo" />
         </div>
+      </div>
+      <div>
+        <Tech />
       </div>
       <div>
         <Buttons />
