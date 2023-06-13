@@ -1,4 +1,7 @@
 import "./App.css";
+import React, { useEffect, useState } from "react";
+import Buttons from "./components/buttons";
+import Discordstatus from "./components/Discordstatus";
 
 const user = {
   name: "Matrex",
@@ -26,47 +29,16 @@ function App() {
             grow as a developer, embracing the challenges and opportunities that
             lie ahead.
           </p>
+          <div>
+            <Discordstatus />
+          </div>
         </div>
         <div className="avatar">
           <img alt="" src={user.imageurl} className="photo" />
         </div>
       </div>
       <div>
-        <h2 className="title">Social</h2>
-        <div className="links">
-          <a
-            className="button"
-            href="https://github.com/matrex03"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Github
-          </a>
-          <a
-            className="button"
-            href="https://twitter.com/matrex_03"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Twitter
-          </a>
-          <a
-            className="button"
-            href="https://discord.gg/mAffaJ2uhD"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Discord
-          </a>
-          <a
-            className="button"
-            href="https://www.instagram.com/matrex03/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Instagram
-          </a>
-        </div>
+        <Buttons />
       </div>
     </div>
   );

@@ -26,7 +26,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
 .App {
   max-width: 800px;
   margin: 0 auto;
@@ -101,4 +100,37 @@ code {
   font-size: 16px;
   opacity: 0.7;
   font-weight: 300;
+}
+.status {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #999999;
+}
+.statusdiv {
+  display: flex;
+  grid-gap: 6px;
+  gap: 6px;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.offline {
+  background: #363636;
+}
+
+.dnd {
+  background: #ff3737;
+}
+
+.online {
+  background: #52ff61;
+}
+
+.idle {
+  background: #faa81a;
+}
+.statusIcon {
+  min-width: 14px;
+  min-height: 14px;
+  border-radius: 50%;
 }
